@@ -6,7 +6,7 @@ Full-Stack Developer passionate about building web applications and exploring AI
 
 - 🔭 Currently working on **AI-powered learning tools** and **web applications**
 - 🌱 Building with **Next.js**, **TypeScript**, and modern web technologies
-- 💡 Interested in EdTech, AI applications, and creating intuitive user experiences
+- 💡 Interested in AI Agent, and creating intuitive user experiences
 - 📍 Based in Japan
 
 ## Tech Stack
@@ -18,17 +18,6 @@ Full-Stack Developer passionate about building web applications and exploring AI
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eisukehirata&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eisukehirata&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eisukehirata&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
 ## Featured Projects
 
 | Project | Description |
@@ -39,8 +28,8 @@ Full-Stack Developer passionate about building web applications and exploring AI
 
 ## Connect with Me
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER_HANDLE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN_HANDLE)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/eisukehirata)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eisuke-hirata/)
 
 ---
 
