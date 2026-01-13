@@ -1,42 +1,49 @@
-# Portfolio Blog Starter
+# Hi, I'm Eisuke Hirata 👋
 
-This is a porfolio site template complete with a blog. Includes:
+Full-Stack Developer passionate about building web applications and exploring AI-powered solutions.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+## About Me
 
-## Demo
+- 🔭 Currently working on **AI-powered learning tools** and **web applications**
+- 🌱 Building with **Next.js**, **TypeScript**, and modern web technologies
+- 💡 Interested in EdTech, AI applications, and creating intuitive user experiences
+- 📍 Based in Japan
 
-https://portfolio-blog-starter.vercel.app
+## Tech Stack
 
-## How to Use
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-You can choose from one of the following two methods to use this repository:
+## GitHub Stats
 
-### One-Click Deploy
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=eisukehirata&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eisukehirata&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eisukehirata&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+## Featured Projects
 
-### Clone and Deploy
+| Project | Description |
+|---------|-------------|
+| [**learnstack**](https://github.com/EisukeHirata/learnstack) | AI-powered learning platform |
+| [**profile-nanobanana**](https://github.com/EisukeHirata/profile-nanobanana) | Personal profile project |
+| [**vibe-learning**](https://github.com/EisukeHirata/vibe-learning) | Interactive learning experience |
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+## Connect with Me
 
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER_HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN_HANDLE)
 
-Then, run Next.js in development mode:
+---
 
-```bash
-pnpm dev
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=eisukehirata&color=blueviolet&style=flat-square" alt="Profile Views" />
+</p>
