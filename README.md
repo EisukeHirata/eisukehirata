@@ -4,10 +4,10 @@ Full-Stack Developer passionate about building web applications and exploring AI
 
 ## About Me
 
-- 🔭 Currently working on **AI-powered learning tools** and **web applications**
+- 🔭 Currently working on **Knowledge managing tools** and **web applications**
 - 🌱 Building with **Next.js**, **TypeScript**, and modern web technologies
-- 💡 Interested in AI Agent, and creating intuitive user experiences
-- 📍 Based in Japan
+- 💡 Interested in GraphRAG, Knowledge Graph, Agentic RAG
+- 📍 Based in Japan/SF
 
 ## Tech Stack
 
