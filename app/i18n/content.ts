@@ -20,12 +20,12 @@ export const ui = {
       en: [
         `I'm a founder and community builder who has spent the last several years between Tokyo and San Francisco.`,
         `After graduating from Nada High School and the University of Tokyo, I left a consulting career to start from zero in Silicon Valley, where I founded and ran an AI × EdTech startup for about four years before winding it down in 2025.`,
-        `Today I'm building knowledge-management and AI tooling, with a particular interest in GraphRAG, knowledge graphs, and agentic RAG. Alongside that I run and help organize founder communities — including Tech House, a Silicon Valley founder house for Japanese entrepreneurs building for the US market.`,
+        `Right now, I'm exploring my next challenge.`,
       ],
       ja: [
         `東京とサンフランシスコを行き来しながら、ここ数年は起業家・コミュニティビルダーとして活動しています。`,
         `灘高校・東京大学を卒業後、コンサルのキャリアを捨ててシリコンバレーでゼロから挑戦。AI×EdTech のスタートアップを創業し約4年間運営した後、2025年に会社を清算しました。`,
-        `現在はナレッジマネジメントと AI まわりのプロダクトを開発しており、特に GraphRAG・ナレッジグラフ・Agentic RAG に関心があります。並行して、米国市場を狙う日本人起業家のためのシリコンバレーのファウンダーハウス「Tech House」をはじめ、複数の起業家コミュニティの運営・立ち上げに関わっています。`,
+        `現在は次の挑戦を探索中です。`,
       ],
     },
   },
