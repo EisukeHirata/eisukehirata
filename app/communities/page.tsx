@@ -22,7 +22,7 @@ export default function Page() {
             href={`/communities/${c.slug}`}
             className="flex flex-col space-y-1 mb-6 group"
           >
-            <p className="text-neutral-900 dark:text-neutral-100 tracking-tight group-hover:underline">
+            <p className="font-semibold text-neutral-900 dark:text-neutral-100 tracking-tight group-hover:underline">
               {c.name[locale]}
               <span className="text-neutral-500 dark:text-neutral-500 font-normal">
                 {' · '}

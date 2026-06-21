@@ -224,7 +224,6 @@ export const communities: Community[] = [
       '/communities/greg-isenberg-meetup-2.jpg',
       '/communities/greg-isenberg-meetup-3.jpg',
       '/communities/greg-isenberg-meetup-4.jpg',
-      '/communities/greg-isenberg-meetup-5.jpg',
     ],
   },
 ]
