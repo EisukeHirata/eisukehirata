@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useLanguage } from 'app/i18n/LanguageProvider'
 import { ui, getCommunity } from 'app/i18n/content'
+import { Gallery } from './gallery'
 
 export function CommunityDetail({ slug }: { slug: string }) {
   const { locale } = useLanguage()
@@ -25,18 +26,7 @@ export function CommunityDetail({ slug }: { slug: string }) {
         {ui.communitiesPage.roleLabel[locale]}: {community.role[locale]}
       </p>
       {community.images && community.images.length > 0 && (
-        <div className="mb-8 flex flex-col gap-3">
-          {community.images.map((src, i) => (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              key={src}
-              src={src}
-              alt={`${community.name[locale]} ${i + 1}`}
-              loading={i === 0 ? undefined : 'lazy'}
-              className="w-full rounded-lg"
-            />
-          ))}
-        </div>
+        <Gallery images={community.images} alt={community.name[locale]} />
       )}
       <article className="prose">
         {community.body[locale].map((paragraph, i) => (
