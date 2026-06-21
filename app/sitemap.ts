@@ -1,17 +1,17 @@
-import { getBlogPosts } from 'app/blog/utils'
+import { communities } from 'app/i18n/content'
 
 export const baseUrl = 'https://portfolio-blog-starter.vercel.app'
 
 export default async function sitemap() {
-  let blogs = getBlogPosts().map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: post.metadata.publishedAt,
+  let communityRoutes = communities.map((c) => ({
+    url: `${baseUrl}/communities/${c.slug}`,
+    lastModified: new Date().toISOString().split('T')[0],
   }))
 
-  let routes = ['', '/blog'].map((route) => ({
+  let routes = ['', '/articles', '/communities'].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString().split('T')[0],
   }))
 
-  return [...routes, ...blogs]
+  return [...routes, ...communityRoutes]
 }
