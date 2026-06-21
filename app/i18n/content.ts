@@ -88,6 +88,7 @@ export type Community = {
   summary: L // one line for the list
   body: L<string[]> // paragraphs for the detail page
   links: { label: string; url: string }[]
+  images?: string[] // paths under /public; omitted when there are no images
 }
 
 export const communities: Community[] = [
@@ -136,7 +137,11 @@ export const communities: Community[] = [
         `私はコントリビューターとして関わり、自分が身を置く起業家・シリコンバレーのエコシステムとコミュニティをつなぐ役割を担ってきました。`,
       ],
     },
-    links: [{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/eisukehirata/' }],
+    links: [
+      { label: 'wagumi.xyz', url: 'https://wagumi.xyz/' },
+      { label: 'LinkedIn', url: 'https://www.linkedin.com/in/eisukehirata/' },
+    ],
+    images: ['/communities/wagumi-dao.png'],
   },
   {
     slug: 'llm-mushoku-meetup',
@@ -158,6 +163,11 @@ export const communities: Community[] = [
     },
     links: [
       { label: 'X (Twitter)', url: 'https://x.com/eisuke_hrt/status/1652159396762521600' },
+    ],
+    images: [
+      '/communities/llm-mushoku-meetup-1.jpg',
+      '/communities/llm-mushoku-meetup-2.jpg',
+      '/communities/llm-mushoku-meetup-3.jpg',
     ],
   },
   {
@@ -181,6 +191,11 @@ export const communities: Community[] = [
     links: [
       { label: 'X (Twitter)', url: 'https://x.com/eisuke_hrt/status/1753273054506225808' },
     ],
+    images: [
+      '/communities/founder-friday-tokyo-1.jpg',
+      '/communities/founder-friday-tokyo-2.jpg',
+      '/communities/founder-friday-tokyo-3.jpg',
+    ],
   },
   {
     slug: 'greg-isenberg-meetup',
@@ -203,6 +218,13 @@ export const communities: Community[] = [
     links: [
       { label: 'Luma', url: 'https://luma.com/greg_meetup_tokyo' },
       { label: 'X (Twitter)', url: 'https://x.com/eisuke_hrt/status/1710561009449279721' },
+    ],
+    images: [
+      '/communities/greg-isenberg-meetup-1.jpg',
+      '/communities/greg-isenberg-meetup-2.jpg',
+      '/communities/greg-isenberg-meetup-3.jpg',
+      '/communities/greg-isenberg-meetup-4.jpg',
+      '/communities/greg-isenberg-meetup-5.jpg',
     ],
   },
 ]

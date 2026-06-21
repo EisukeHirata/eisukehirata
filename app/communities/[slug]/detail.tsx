@@ -24,6 +24,20 @@ export function CommunityDetail({ slug }: { slug: string }) {
       <p className="mb-8 text-sm text-neutral-600 dark:text-neutral-400">
         {ui.communitiesPage.roleLabel[locale]}: {community.role[locale]}
       </p>
+      {community.images && community.images.length > 0 && (
+        <div className="mb-8 flex flex-col gap-3">
+          {community.images.map((src, i) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={src}
+              src={src}
+              alt={`${community.name[locale]} ${i + 1}`}
+              loading={i === 0 ? undefined : 'lazy'}
+              className="w-full rounded-lg"
+            />
+          ))}
+        </div>
+      )}
       <article className="prose">
         {community.body[locale].map((paragraph, i) => (
           <p key={i} className="mb-4 leading-relaxed">
